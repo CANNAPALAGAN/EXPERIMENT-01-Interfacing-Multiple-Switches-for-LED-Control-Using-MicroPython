@@ -1,4 +1,4 @@
-# EXPERIMENT-02-Interfacing-Multiple-Switches-for-LED-Control-Using-MicroPython
+# EXPERIMENT-01-Interfacing-Multiple-Switches-for-LED-Control-Using-MicroPython
 
 
  
