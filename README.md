@@ -16,21 +16,21 @@ To interface multiple switches with the Raspberry Pi Pico and control LEDs using
 
 ## APPARATUS REQUIRED
 
-Raspberry Pi Pico - 1
+1. Raspberry Pi Pico - 1
 
-Push Button Switches - 2
+2. Push Button Switches - 2
 
-LEDs (Light Emitting Diodes) -3
+3. LEDs (Light Emitting Diodes) -3
 
-Buzzer - 1
+4. Buzzer - 1
 
-330Ω Resistors -3
+5. 330Ω Resistors -3
 
-Breadboard
+6. Breadboard
 
-Jumper Wires
+7. Jumper Wires
 
-USB Cable
+8. USB Cable
 
 ## THEORY
 
@@ -47,19 +47,19 @@ For communication, I2C (SDA, SCL), SPI (MOSI, MISO, SCK), and UART (TX, RX) inte
 ## WORKING PRINCIPLE
 
 ## Experiment 1A:
-The LEDs are connected as outputs in any three GPIO pins.
+1. The LEDs are connected as outputs in any three GPIO pins.
 
-The Buzzer connected as output in any one LED connected GPIO pins.
+2. The Buzzer connected as output in any one LED connected GPIO pins.
 
-A MicroPython script reads the switch states and controls the LEDs accordingly.
+3. A MicroPython script reads the switch states and controls the LEDs accordingly.
 
 ## Experiment 1B:
 
-The switches are connected as inputs to GPIO pins of the Pico.
+1. The switches are connected as inputs to GPIO pins of the Pico.
 
-The LEDs are connected as outputs.
+2. The LEDs are connected as outputs.
 
-A MicroPython script reads the switch states and controls the LEDs accordingly.
+3. A MicroPython script reads the switch states and controls the LEDs accordingly.
 
 ### CIRCUIT DIAGRAM
 ## Experiment 1A
@@ -68,11 +68,11 @@ A MicroPython script reads the switch states and controls the LEDs accordingly.
 
 ## FIGURE-02:  Circuit Diagram of Digital Output Interface 
 
-Connect LED 1 to GPIO 0 via a 330Ω resistor, LED 2 to GPIO 2 via a 330Ω resistor and LED 3 to GPIO 4 via a 330Ω resistor.
+1. Connect LED 1 to GPIO 0 via a 330Ω resistor, LED 2 to GPIO 2 via a 330Ω resistor and LED 3 to GPIO 4 via a 330Ω resistor.
 
-Connect the Buzzer positive to either one pins GPIO 0 or GPIO 2 or GPIO 4.
+2. Connect the Buzzer positive to either one pins GPIO 0 or GPIO 2 or GPIO 4.
 
-Connect the other terminals of the LEDs and Buzzer to GND.
+3. Connect the other terminals of the LEDs and Buzzer to GND.
 
 ## Experiment 1B
 
@@ -81,13 +81,13 @@ Connect the other terminals of the LEDs and Buzzer to GND.
 ## FIGURE-02:  Circuit Diagram of Digital Input and Output Interface 
 
 
-Connect switch 1 to GPIO 2 and switch 2 to GPIO 3.
+1. Connect switch 1 to GPIO 2 and switch 2 to GPIO 3.
 
-Connect LED 1 to GPIO 13 via a 330Ω resistor.
+2. Connect LED 1 to GPIO 13 via a 330Ω resistor.
 
-Connect LED 2 to GPIO 16 via a 330Ω resistor.
+3. Connect LED 2 to GPIO 16 via a 330Ω resistor.
 
-Connect the other terminals of the switches to GND.
+4. Connect the other terminals of the switches to GND.
 
 ## PROGRAM (MicroPython)
 ''''
@@ -106,13 +106,18 @@ Connect the other terminals of the switches to GND.
 
 ## OUTPUT
 
+
 ## Experiment 1A:
 
 
 
 ## FIGURE-04: CIRCUIT CONNECTION
 
+
+
 ## FIGURE-05: CODE EXECUTION OUTPUT
+
+
 
 ## FIGURE-06: LED AND BUZZER STATUS
 
@@ -122,7 +127,11 @@ Connect the other terminals of the switches to GND.
 
 ## FIGURE-07: CIRCUIT CONNECTION
 
+
+
 ## FIGURE-08: CODE EXECUTION OUTPUT
+
+
 
 ## FIGURE-09: LED STATUS BASED ON SWITCH INPUTS
 
