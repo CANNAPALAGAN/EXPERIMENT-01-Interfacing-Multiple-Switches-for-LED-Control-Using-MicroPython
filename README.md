@@ -65,7 +65,8 @@ A MicroPython script reads the switch states and controls the LEDs accordingly.
 ## Experiment 1A
 
 <img width="710" height="507" alt="image" src="https://github.com/user-attachments/assets/6bc88cc6-578c-4c45-a346-17d4804816ae" />
-## Figure-02 circuit diagram of digital output interface 
+
+## FIGURE-02:  circuit diagram of digital output interface 
 
 Connect LED 1 to GPIO 0 via a 330Ω resistor, LED 2 to GPIO 2 via a 330Ω resistor and LED 3 to GPIO 4 via a 330Ω resistor.
 
