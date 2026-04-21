@@ -94,6 +94,38 @@ For communication, I2C (SDA, SCL), SPI (MOSI, MISO, SCK), and UART (TX, RX) inte
 
 ## Experiment 1A:
 
+from machine import Pin
+import time
+print("Pi Pico")
+led1 = Pin(0, Pin.OUT)
+led2 = Pin(2, Pin.OUT)
+led3 = Pin(4, Pin.OUT)
+buzzer=Pin(4,Pin.OUT)
+while True:
+    led1.value(1) 
+    print("LED is ON")
+    time.sleep(1) 
+    led1.value(0)  
+    print("LED is OFF")
+    time.sleep(1)
+    led2.value(1) 
+    print("LED is ON")
+    time.sleep(1) 
+    led2.value(0)  
+    print("LED is OFF")
+    time.sleep(1)
+    led3.value(1) 
+    print("LED is ON")
+    time.sleep(1) 
+    led3.value(0)  
+    print("LED is OFF")
+    time.sleep(1)
+    buzzer.value(1) 
+    print("Buzzer is ON")
+    time.sleep(1) 
+    buzzer.value(0)  
+    print("Buzzer is OFF")
+    time.sleep(1)
 
 
 
