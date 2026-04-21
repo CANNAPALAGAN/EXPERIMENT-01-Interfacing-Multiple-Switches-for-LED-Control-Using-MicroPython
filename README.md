@@ -51,6 +51,12 @@ The LEDs are connected as outputs.
 A MicroPython script reads the switch states and controls the LEDs accordingly.
 
 ### CIRCUIT DIAGRAM
+<img width="710" height="507" alt="image" src="https://github.com/user-attachments/assets/6bc88cc6-578c-4c45-a346-17d4804816ae" />
+
+
+<img width="940" height="576" alt="image" src="https://github.com/user-attachments/assets/6fc9a95f-28d4-4793-bf72-f60e34877c33" />
+
+
  ![image](https://github.com/user-attachments/assets/1c7234b9-5041-4156-94b8-0b846adb6b8e)
     Figure-01 circuit diagram of digital input interface 
 
