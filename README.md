@@ -16,15 +16,15 @@ To interface multiple switches with the Raspberry Pi Pico and control LEDs using
 
 ## APPARATUS REQUIRED
 
-Raspberry Pi Pico
+Raspberry Pi Pico - 1
 
-2 Push Button Switches
+Push Button Switches - 2
 
-3 LEDs (Light Emitting Diodes)
+LEDs (Light Emitting Diodes) -3
 
-1 Buzzer
+Buzzer - 1
 
-330Ω Resistors
+330Ω Resistors -3
 
 Breadboard
 
